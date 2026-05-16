@@ -6,11 +6,11 @@ Read each line of integers as a string and extract the integers from the string 
 
 ## Sample Run
 
-> Enter integers for priority queue 1: 1 9 2 30 21 4 1\
-> Enter integers for priority queue 2: 12 19 2 10 12 1\
-> The union of the two priority queues is\
-> 1 1 1 2 2 4 9 10 12 12 19 21 30\
-> The difference of the two priority queues is\
-> 4 9 21 30\
-> The intersection of the two priority queues is\
-> 1 1 2
+    Enter integers for priority queue 1: 1 9 2 30 21 4 1
+    Enter integers for priority queue 2: 12 19 2 10 12 1
+    The union of the two priority queues is
+    1 1 1 2 2 4 9 10 12 12 19 21 30
+    The difference of the two priority queues is
+    4 9 21 30
+    The intersection of the two priority queues is
+    1 1 2
