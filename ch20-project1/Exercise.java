@@ -15,8 +15,6 @@ public class Exercise {
         System.out.print("Enter integers for priority queue 2: ");
         String inputLine2 = input.nextLine();
 
-        input.close();
-
         populateQueue(queue1, inputLine1);
         populateQueue(queue2, inputLine2);
 
@@ -34,6 +32,8 @@ public class Exercise {
         PriorityQueue<Integer> intersection = new PriorityQueue<>(queue1);
         intersection.retainAll(queue2);
         printAndEmptyQueue(intersection);
+
+        input.close();
     }
 
     private static void populateQueue(PriorityQueue<Integer> queue, String inputLine) {
@@ -42,6 +42,8 @@ public class Exercise {
         while (lineScanner.hasNextInt()) {
             queue.offer(lineScanner.nextInt());
         }
+
+        lineScanner.close();
     }
 
     private static void printAndEmptyQueue(PriorityQueue<Integer> queue) {
