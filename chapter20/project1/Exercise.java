@@ -48,7 +48,7 @@ public class Exercise {
 
     private static void printAndEmptyQueue(PriorityQueue<Integer> queue) {
         while (!queue.isEmpty()) {
-            System.out.print(queue.remove() + " ");
+            System.out.print(queue.poll() + " ");
         }
         System.out.println();
     }
