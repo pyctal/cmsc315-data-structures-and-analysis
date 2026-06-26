@@ -44,5 +44,7 @@ public class Exercise {
 
         System.out.println("Maximum consecutive increasingly ordered substring is "
                 + inputString.substring(maxSubstringStart, maxSubstringStart + maxSubstringLen));
+
+        input.close();
     }
 }
